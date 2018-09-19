@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(231, 229, 228);
+}
+
+.container {
+  padding-right:15px;
+  padding-left:15px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.row {
+  margin-bottom:20px;
+}
+
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.col-md-4 {
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  border-color: rgba(202, 195, 195, 0.849);
+  transition: 1s;
+}
+
+.col-md-4:hover {
+  background-color: rgba(202, 195, 195, 0.849);
+  transition: 1s;
+  color: black;
+}
+
+
